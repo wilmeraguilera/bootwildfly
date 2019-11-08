@@ -7,7 +7,6 @@
 	<groupId>bootwildfly</groupId>
 	<version>1.5.0-SNAPSHOT</version>
 	<artifactId>bootwildfly</artifactId>
-
 	<packaging>war</packaging>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
