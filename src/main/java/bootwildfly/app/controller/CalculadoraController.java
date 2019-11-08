@@ -33,6 +33,8 @@ public class CalculadoraController {
     	Integer nroExecute = executeVal.incrementAndGet();
     	resultado = calculadoraService.sumar(sumando1, sumando2);
     	
+    	resultado = resultado + 10;
+    	
         return ("Execución Nro: "+nroExecute+ "Resultado Suma: "+resultado);
     }
     
