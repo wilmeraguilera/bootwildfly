@@ -74,7 +74,7 @@ node{
               
   			withSonarQubeEnv('sonar') {
   				sh "${mvnCmd} sonar:sonar " +
-  				"-Dsonar.junit.reportsPath=target/surefire-reports -Dsonar.jacoco.reportPath=target/jacoco.exec -Dsonar.projectName=restExample3 -Dsonar.projectKey=restExample3"
+  				"-Dsonar.junit.reportsPath=target/surefire-reports -Dsonar.jacoco.reportPath=target/jacoco.exec "
   			}
 			
 			sleep(10)
