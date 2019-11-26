@@ -17,7 +17,7 @@ node{
 
 		//Stage for configuration of the pipeline
 		stage('Preparing'){
-			mvnHome = tool 'M2'
+			mvnHome = tool 'M2_3.6.2'
 
 			// Define Maven Command. Make sure it points to the correct
 			// settings for our Nexus installation (use the service to
